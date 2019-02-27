@@ -52,10 +52,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
-    'channels',
-
-    'apps.chat'
 ]
 
 MIDDLEWARE = [
@@ -144,5 +140,3 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static_cdn')
 MEDIA_URL = "/media/"
 
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
-
-ASGI_APPLICATION = "config.routing.application"
