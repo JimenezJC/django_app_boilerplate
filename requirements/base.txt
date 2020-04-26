@@ -1,1 +1,3 @@
 #List all PIP applications needed for both local and production here
+#psycopg2 is needed for postgresql. 
+psycopg2
