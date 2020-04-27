@@ -11,9 +11,9 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import datetime
+import environ
 import dj_database_url
 import os
-import environ
 
 
 

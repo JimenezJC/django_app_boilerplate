@@ -34,7 +34,6 @@ In requirements there are three files. This is to make the installation process 
 
 1. ```touch .env``` To create a environment file with the following:
 ```
-bash
 DEBUG=true
 SECRET_KEY=[KEY]
 DJANGO_SETTINGS_MODULE=config.settings.local
